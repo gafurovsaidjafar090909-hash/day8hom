@@ -296,6 +296,13 @@ table {
   display: none;
 }
 
+.ss1 {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+}
+
 @media (max-width: 510px) {
   .d2 {
     display: none !important;
@@ -535,5 +542,11 @@ table {
     height: 550px;
     width: 500px;
     background-color: rgba(128, 128, 128, 0.294);
+  }
+  .ss1 {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
