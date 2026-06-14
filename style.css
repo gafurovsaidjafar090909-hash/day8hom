@@ -83,6 +83,87 @@
   gap: 10px;
 }
 
+.dum {
+  display: none;
+}
+
+.boox1 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.boox2 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.boox3 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.boox4 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.dou {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.booxx1 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.booxx2 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.booxx3 {
+  width: 250px;
+  height: 250px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  text-align: center;
+}
+
+.dee {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
 @media (max-width: 510px) {
   .d2 {
     display: none !important;
@@ -109,5 +190,139 @@
   .textu2 .text1 {
     margin-right: 20px;
     margin-left: 20px;
+  }
+  .dum {
+    display: block !important;
+  }
+  .dum .dou {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .dum .dee {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .dum .dm2 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .dum .dm3 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .du {
+    display: none;
+  }
+  .boox1 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .boox2 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: -300px;
+  }
+  .boox3 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .boox4 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: -300px;
+  }
+  .booxx1 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .booxx2 {
+    width: 200px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: -300px;
+  }
+  .booxx3 {
+    width: 450px;
+    height: 250px;
+    background-color: #EAF2F5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px black;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .dou {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .dee {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .dum {
+    display: block;
+  }
+  .dm2 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .dm3 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .du {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
