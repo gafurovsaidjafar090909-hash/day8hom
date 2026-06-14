@@ -238,6 +238,38 @@
   border-radius: 15px;
 }
 
+.du3 {
+  max-width: 1300px;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  background-color: #EAF2F5;
+}
+.du3 .s1 {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.du3 .s1 p {
+  width: 89%;
+}
+.du3 .s2 {
+  display: flex;
+  height: 20%;
+  gap: 20px;
+}
+.du3 .s3 {
+  display: flex;
+  height: 20%;
+  gap: 20px;
+}
+.du3 .s4 {
+  display: flex;
+  height: 20%;
+  gap: 20px;
+}
+
 @media (max-width: 510px) {
   .d2 {
     display: none !important;
@@ -426,5 +458,47 @@
     width: 100%;
     background-color: #EAF2F5;
     border-radius: 15px;
+  }
+  .s1 {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .s2 {
+    flex-direction: column;
+    margin: auto;
+  }
+  .s2 p {
+    width: 400px;
+    text-align: center;
+  }
+  .s3 p {
+    width: 400px;
+    text-align: center;
+  }
+  .s4 p {
+    width: 400px;
+    text-align: center;
+  }
+  .s2 img {
+    width: 100px;
+    margin: auto;
+  }
+  .s3 img {
+    width: 100px;
+    margin: auto;
+  }
+  .s4 img {
+    width: 100px;
+    margin: auto;
+  }
+  .s3 {
+    flex-direction: column;
+  }
+  .s4 {
+    flex-direction: column;
+  }
+  .du3 {
+    height: 800px;
   }
 }/*# sourceMappingURL=style.css.map */
